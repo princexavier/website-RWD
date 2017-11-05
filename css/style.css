@@ -1,0 +1,1015 @@
+    * {
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .text-style {
+        color: #ff5274;
+    }
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        margin: 0px auto;
+        width: 80%;
+    }
+
+    .sketch-section {
+        background: url(../sedna-images/macbook-pro.png) no-repeat right / 450px 75%;
+    }
+
+    .feature-content-area {
+        margin-left: 20px;
+        width: 80%;
+        display: inline-block;
+    }
+    /*section 1 starts here*/
+
+    .nav-wrapper {
+        position: relative;
+        background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('../sedna-images/hero-image-01.png');
+    }
+
+    .nav-container {
+        z-index: 1;
+        transition: 1s;
+        position: fixed;
+        width: 100%;
+    }
+
+    .content-area {
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+        padding: 180px 0px;
+    }
+
+    .first-list {
+        float: right;
+        margin-left: 40px;
+    }
+
+    .first-list li {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .nav-list {
+        width: 80%;
+        margin: 0px auto;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 20px 0px;
+    }
+
+    .nav-list a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+     .nav-list ul a{
+        text-decoration: none;
+        color: #ffffff;
+     }
+    .logo{
+        float: left;
+    }
+    .logo img{
+        padding-top: 15px;
+    }
+
+    .signup-btn {
+        padding: 7px 30px 10px 29px;
+        border: 2px solid #ffffff;
+        border-radius: 40px;
+    }
+
+    .sign-specs {
+        display: block;
+        width: 115px;
+        height: 35px;
+    }
+
+    .group {
+        width: 80%;
+        margin-left: 22px;
+        display: inline-block;
+    }
+
+    .modal {
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        transition: 1s;
+    }
+    .bg-color{
+        background: black;
+        transition: 1s;
+    }
+
+    .modal ul li {
+        display: block;
+        padding: 15px 76px;
+        text-align: center;
+        margin: 0px auto;
+        width: 228px;
+        animation-name: slide;
+        animation-duration: 2s;
+    }
+    @keyframes slide{
+        from{
+            transform: translateX(50px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+
+    .modal li a {
+        color: #fff;
+    }
+
+    .content-area h1 {
+        padding-bottom: 15px;
+        font-weight: 500;
+        font-size: 60px;
+        color: #ffffff;
+    }
+
+    .content-area p {
+        padding: 15px 0px 84px 0px;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 300;
+    }
+
+    .btn-normal {
+        width: 209px;
+        height: 55px;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid #FF5274;
+        padding: 18px 30px 19px;
+        border-radius: 40px;
+        display: inline-block;
+    }
+
+    .btn-med {
+        width: 176px;
+        font-size: 10px;
+        text-decoration: none;
+        border: 1px solid #FF5274;
+        padding: 12px 44px;
+        border-radius: 40px;
+        display: inline-block;
+    }
+
+    .btn-fill {
+        background-color: #FF5274;
+        color: white;
+    }
+
+    .btn-outline {
+        margin-right: 0px;
+        color: #FF5274;
+        background-color: transparent;
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: 32px;
+        left: calc(50% - 10px);
+    }
+
+    .arrow>i {
+        color: white;
+    }
+    /*section1 ends here*/
+    /*section2 starts here*/
+
+    .divider-3 {
+        float: left;
+        width: calc(100%/3);
+        text-align: justify;
+    }
+
+    .list-item img {
+        vertical-align: top;
+    }
+
+    .list-item h3 {
+        font-weight: 600;
+        font-size: 15px;
+        color: #3d4351;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .list-item p {
+        text-align: left;
+        line-height: 1.67;
+        font-size: 15px;
+        font-weight: 300 !important;
+        color: rgba(96, 114, 134, 0.64);
+    }
+    /*section2 ends here*/
+    /*section3 starts here*/
+
+    .feature-wrapper {
+        background: #F3F4F8 url('../sedna-images/mobile.png') no-repeat 100px 90px / 530px 991px;
+    }
+
+    .feature-area {
+        margin: 13px 0px 73px;
+    }
+
+    .feature-area ul li {
+        border-bottom: solid 1px #e6e9ea;
+    }
+
+    .feature-area ul li:nth-child(3) {
+        border: none;
+    }
+
+    .feature-area h3 {
+        padding-bottom: 20px;
+        color: #3d4351;
+        font-size: 24px;
+    }
+
+    .feature-content-container {
+        padding-top: 59px;
+    }
+
+    .feature-content-container li:nth-child(1) {
+        padding-bottom: 22px;
+        margin-bottom: 20px;
+    }
+
+    .feature-content-container li:nth-child(2) {
+        padding-bottom: 16px;
+        margin-bottom: 20px;
+    }
+
+    .feature-content-area h5 {
+        font-size: 15px;
+        color: #3d4351;
+        padding-bottom: 8px;
+    }
+
+    .divider-2 {
+        float: right;
+        width: calc(100% / 2);
+    }
+
+    .feature-area ul li img {
+        vertical-align: top;
+    }
+
+    .feature-area p {
+        line-height: 1.67;
+        color: rgba(28, 54, 83, 0.7);
+    }
+    /*section 3ends here*/
+    /*section4 starts here*/
+
+    .float-item {
+        float: none;
+    }
+
+    .float-item h3 {
+        margin-top: 22px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #3d4351;
+    }
+
+    .float-item p {
+        padding-bottom: 20px;
+        line-height: 1.67;
+        font-size: 15px;
+        color: rgba(28, 54, 83, 0.7);
+    }
+    /*section4 starts here*/
+
+    .feature-content {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .content-side-arena h3 {
+        color: #3d4351;
+        font-size: 24px;
+    }
+
+    .content-side-arena p {
+        color: rgba(28, 54, 83, 0.7);
+        font-size: 15px;
+    }
+
+    .sec3-wrapper {
+        height: 690px;
+        background-image: url('../sedna-images/macbook-pro.png') no-repeat right;
+    }
+
+    .sec3-container {
+        width: 80%;
+    }
+
+    .left-content-area {
+        padding-top: 100px;
+        width: 500px;
+        margin-left: 0px;
+    }
+
+    .left-content-area h3 {
+        margin-bottom: 20px;
+        font-size: 25px;
+        color: #3d4351;
+    }
+
+    .left-content-area p {
+        line-height: 1.67;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+        font-size: 15px;
+        color: rgba(28, 54, 83, 0.7);
+    }
+
+    .left-content-area a {
+        text-decoration: none;
+        padding: 8px 40px;
+        display: inline-block;
+        color: #ff5274;
+        border: 1px solid red;
+        border-radius: 40px;
+        font-size: 13px;
+    }
+
+    .download-wrapper {
+        position: relative;
+        background-color: rgba(61, 67, 81, 0.8);
+    }
+
+    .download-content-area {
+        text-align: center;
+        padding: 18px 0px 121px 0px;
+    }
+
+    .download-content-area h2 {
+        font-size: 40px;
+        font-weight: 300;
+        color: #ffffff;
+        padding-bottom: 17px;
+    }
+
+    .download-content-area p {
+        margin-bottom: 50px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.56;
+        color: #acb1b4;
+    }
+
+    .download-content-area img {
+        position: absolute;
+        left: calc(50% - 115px);
+        bottom: -70px;
+    }
+
+    .product-content-area h1 {
+        font-weight: 500;
+        color: #3D4351;
+        padding-bottom: 82px;
+    }
+
+    .product-para {
+        width: 40%;
+        display: inline-block;
+    }
+
+    .product-para h4 {
+        width: 176px;
+        height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .product-para-2 {
+        width: 40%;
+        margin-left: 160px;
+        display: inline-block;
+    }
+
+    .product-para-2 h4 {
+        width: 295px;
+        height: 20px;
+        margin-bottom: 21px;
+    }
+
+    .product-para,
+    .product-para-2 p {
+        font-size: 15px;
+        line-height: 1.67;
+        color: rgba(28, 54, 83, 0.6);
+    }
+
+    .para-style {
+        width: 421px;
+        height: 120px;
+        font-size: 15px;
+        color: #3D4351;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .more-btn {
+        margin-top: 57px;
+        margin-bottom: 30px;
+    }
+
+    .assets-container {
+        list-style: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon-style {
+        color: #ffffff;
+    }
+
+    .icon-style p span {
+        padding-left: 10px;
+    }
+
+    .img-style {
+        width: 100%;
+        height: 300px;
+    }
+
+    .sec-5-h5-style {
+        padding-top: 34px;
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+        color: #acb1b4;
+    }
+
+    .sec-5-p-style {
+        text-align: center;
+        padding-top: 6px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 2.0;
+        color: #677074;
+    }
+
+    .testimonial-wrapper {
+        position: relative;
+        height: 500px;
+        background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('../sedna-images/hero-image-01.png');
+    }
+
+    .fix-dot {
+        position: absolute;
+        bottom: 43px;
+        left: calc(50% - 37px);
+        list-style: none;
+    }
+
+    .fix-dot li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .dot {
+        display: inline-block;
+
+        width: 12px;
+        height: 12px;
+        border: solid 2px #ffffff;
+        border-radius: 100%;
+    }
+
+    .testimonial-container p {
+        font-size: 40px;
+        cursor: default;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .right-angle {
+        position: absolute;
+        top: 50%;
+        right: 10%;
+    }
+
+    .left-angle {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+
+    .testimonial-container img {
+        display: block;
+        margin: 56px auto 28px;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        background-color: #d8d8d8;
+        box-shadow: 1px 1px 10px;
+    }
+    /*footer begins here*/
+
+    .wrapper-footer {
+        background: linear-gradient(to right, #3D4351 60%, #373D4A 30%);
+    }
+
+    .footer-container {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .left-content-footer {
+        display: inline-block;
+        padding: 119px 0px 191px 0px;
+        border-top: 1px solid #4e566c;
+    }
+
+    .left-content-footer ul {
+        margin-left: 0px;
+        border-top: 1px solid dimgrey;
+        padding: 26px 0px 27px 0px;
+    }
+
+    .left-content-footer ul li {
+        display: inline-block;
+    }
+
+    .left-content-footer ul li a {
+        font-size: 13px;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .span-style {
+        font-size: 13px;
+        color: dimgray;
+    }
+
+    .a-style {
+        text-decoration: none;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
+    .left-content-footer p {
+        padding-top: 10px;
+    }
+
+    .right-content-footer {
+        float: right;
+        padding: 129px 0px 257px;
+    }
+
+    .right-content-footer ul li {
+
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .right-content-footer p {
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 3.08;
+        text-align: justify;
+        color: #ffffff;
+    }
+
+    .thick-line {
+        height: 60px;
+        background-color: #495061;
+    }
+
+    .line-box {
+        float: right;
+        height: 60px;
+        width: 69px;
+        background-color: #373D4A;
+        margin-right: 280px;
+        color: #ffffff;
+    }
+
+    .line-box a i {
+        color: #ffffff;
+        padding-top: 12px;
+        padding-left: 22px;
+    }
+
+    .icon-color1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 3px;
+        color: #ffffff;
+        background-color: #1AB4EF;
+        padding: 25px;
+    }
+
+    .icon-color2 {
+        width: 60px;
+        height: 60px;
+        border-radius: 3px;
+        color: #ffffff;
+        background-color: #3B5898;
+        padding: 25px;
+    }
+    /*Responsive Hamburger starts here*/
+
+    .hamburger-btn {
+        transition: 0.5s;
+        outline: none;
+        cursor: pointer;
+        display: none;
+        padding: 10px;
+        float: right;
+        position: relative;
+        width: 50px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .bar {
+        transition: 1s;
+        margin: 3px 0px;
+        background: white;
+        width: 25px;
+        height: 3px;
+        position: absolute;
+    }
+
+    .bar:nth-child(1) {
+        top: 10px;
+    }
+
+    .bar:nth-child(2) {
+        top: 20px;
+    }
+
+    .bar:nth-child(3) {
+        top: 30px;
+    }
+
+    .hamburger-btn.open span:nth-child(1) {
+        transform: rotate(-45deg) translate(-14px);
+    }
+
+    .hamburger-btn.open span:nth-child(2) {
+
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+
+    .hamburger-btn.open span:nth-child(3) {
+        transform: rotate(45deg) translate(-15px);
+    }
+
+    .form-area{
+        text-align: center;
+    }
+     .input-group li{
+        position: relative;
+        width: 50%;
+    margin: 0px auto;
+     }
+     .input-group li input{
+        padding-left: 70px;
+        width: 100%;
+        height: 50px;
+     }
+     .input-group li i{
+        color: #ff5274;
+        position: absolute;
+        top:10px;
+        left: 4%;
+     }
+     .input-group li:first-child{
+        padding-bottom: 9px;
+     }
+     .input-group li button{
+        text-transform: uppercase;
+        margin-top: 10px;
+       border: none;
+       background: #ff5274;
+       color: #ff5274;
+       width: 100%;
+       height: 50px;
+       color: white;
+     }
+     .form-area h3{
+        font-size: 24px;
+         color: #3d4351;
+     padding-bottom: 3px;
+     }
+     .form-area p {
+        font-size: 15px;
+        color: #677074;
+        padding-bottom: 55px;
+     }
+     ::-webkit-input-placeholder{
+      color: #bcc1c3;
+     }
+     .wrapper{
+      padding: 80px 0px;
+     }
+
+
+    /*
+Responsive Hamburger ends here*/
+    /*...........................Media query starts here ................... */
+
+    @media only screen and (max-width: 768px) {
+
+        /*common class*/
+        .divider-1 {
+            width: 100%;
+            padding: 10px 0px;
+        }
+        /*first-section*/
+        .nav-list {
+            width: 100%;
+            padding: 20px 0px;
+        }
+        .nav-list ul li{
+            display: none;
+        }
+        .hamburger-btn {
+            margin-right: 30px;
+            display: block;
+        }
+        .logo img{
+            padding: 10px 0px 0px 30px;
+        }
+        .login {
+            float: none;
+        }
+        .login li:first-child {
+            padding: 15px 76px;
+        }
+        .modal ul li {
+            display: block;
+            padding: 25px 60px !important;
+        }
+        .first-list 
+        {
+        display: block;
+        margin: 0px auto;
+        float: none;
+        }
+
+        /*sec-2 wrapper */
+        .content-area {
+            padding: 100px 0px;
+        }
+        .content-area h1 {
+            font-size: 40px;
+        }
+        .content-area p {
+            margin: 5px 0px 50px 0px;
+        }
+        .btn-fill {
+            margin-bottom: 10px;
+        }
+
+        .list-item img {
+            width: 30px;
+        }
+        .group {
+            width: 75%;
+        }
+        /*feature-wrapper starts*/
+        .feature-wrapper {
+            padding-bottom: 200px;
+            background: #F3F4F8 url('../sedna-images/mobile.png') no-repeat bottom / 200px;
+        }
+        .container {
+            padding: 10px 0px;
+        }
+        .feature-area h3 {
+            padding-bottom: 10px;
+            font-size: 20px;
+        }
+        .feature-content-container {
+            padding-top: 10px;
+        }
+        .feature-area ul li {
+            border: none;
+            padding: 0px !important;
+        }
+        .feature-area ul li img {
+            width: 30px;
+        }
+        /*sketch-starts here*/
+        .sketch-section {
+            background: url(../sedna-images/macbook-pro.png) no-repeat bottom /250px;
+            padding-bottom: 200px;
+        }
+
+        /*download wrapper-starts here*/
+        .download-wrapper {
+            padding-bottom: 80px;
+        }
+        .download-content-area h2 {
+            font-size: 30px;
+        }
+        .download-content-area p {
+            padding-bottom: 20px;
+        }
+
+        .download-content-area img {
+            width: 150px;
+            left: calc(50% - 75px);
+        }
+        /*showcase wrapper starts here*/
+        .product-wrapper {
+            padding: 80px 0px;
+        }
+        .product-content-area h1 {
+            padding-bottom: 20px;
+        }
+        .product-content-area h1 {
+            margin: 0px !important;
+        }
+        .product-para-2 {
+            margin-left: 0px;
+        }
+        .img1,
+        .img2,
+        .img3 {
+            width: 100%;
+        }
+        .img-style {
+            width: 100%;
+        }
+        .sec-5-h5-style {
+            padding-top: 0px;
+        }
+        .sec-5-p-style {
+            text-align: center;
+            padding: 0px 0px 20px;
+        }
+        .more-btn {
+            margin-top: 0px;
+        }
+        .testimonial-container p {
+            padding-top: 50px;
+            font-size: 30px;
+        }
+        .left-angle {
+            left: 5%;
+            top: 60%;
+        }
+        .right-angle {
+            right: 5%;
+            top: 60%;
+        }
+        .left-content-footer {
+            padding-top: 70px;
+        }
+        .right-content-footer {
+            display: none;
+        }
+        .thick-line {
+            display: none;
+        }
+
+        /*footer starts here*/
+        .left-content-footer ul li {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px dashed white;
+        }
+        .left-content-footer {
+            display: block;
+            padding: 0px;
+        }
+        .footer-container {
+            width: 100%;
+        }
+      .input-group li{
+        width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+        .login li:first-child {
+            padding-right: 0px;
+        }
+        .sign-specs {
+            width: 110px;
+        }
+        .divider-1 {
+            width: 100%;
+            padding: 10px 0px;
+        }
+        .list-item img {
+            width: 30px;
+        }
+        .feature-wrapper {
+            background: #F3F4F8 url('../sedna-images/mobile.png') no-repeat bottom / 280px;
+            padding-bottom: 280px;
+        }
+        .product-wrapper {
+            padding: 80px 0px;
+        }
+        .sketch-section {
+            background: url(../sedna-images/macbook-pro.png) no-repeat bottom / 300px;
+            padding-bottom: 150px;
+        }
+        .product-content-area h1 {
+            padding-bottom: 10px;
+        }
+        .product-para-2 {
+            margin-left: 0px;
+        }
+        .img1,
+        .img2,
+        .img3 {
+            text-align: center;
+        }
+        .divider-3 {
+            width: 100%;
+        }
+        .sec-5-h5-style {
+            padding-top: 0px;
+        }
+        .sec-5-p-style {
+            padding-bottom: 20px;
+        }
+        .img-style {
+            width: 100%;
+            height: 400px;
+        }
+        .more-btn {
+            margin-top: 0px;
+        }
+        .left-angle{
+            left: 5%;
+        }
+        .right-angle{
+            right: 5%;
+        }
+        .right-content-footer {
+            display: none;
+        }
+        .line-box{
+            margin-right: 150px;
+        }
+        .left-content-footer {
+            padding: 80px 0px 80px;
+        }
+        .input-group li{
+            width: 70%;
+        }
+        .wrapper-footer{
+            background:#3D4351;
+        }
+    }
+
+
+    @media screen and (min-width: 1025px) and (max-width: 1280px) {
+        .group {
+            width: 70%;
+        }
+        .feature-wrapper {
+            background: #F3F4F8 url('../sedna-images/mobile.png') no-repeat 100px 90px / 400px;
+        }
+        .sketch-section {
+            background: url(../sedna-images/macbook-pro.png) no-repeat right / 500px;
+        }
+        .line-box{
+            margin-right: 150px;
+        }
+        .left-content-footer {
+            padding: 50px 0px 150px 0px;
+        }
+        .right-content-footer {
+            padding: 50px 0px;
+        }
+    }
+    /*media query ends here*/
